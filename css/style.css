@@ -11,6 +11,11 @@ body {
   .container {
     padding: 80px 120px;
   }
+  @media (max-width: 600px) {
+    .container-s {
+        padding: 80px 60px;
+    }
+    }
   .person {
     border: 10px solid transparent;
     margin-bottom: 25px;
@@ -20,9 +25,6 @@ body {
   }
   .person:hover {
     border-color: #f1f1f1;
-  }
-  #somecooltext {
-    
   }
   #myCarousel {
     padding-left: 5%;
