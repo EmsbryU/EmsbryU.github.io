@@ -21,17 +21,18 @@ body {
     margin-bottom: 25px;
     width: 80%;
     height: 80%;
-    opacity: 0.7;
+    opacity: 1;
   }
   .person:hover {
     border-color: #f1f1f1;
   }
   #myCarousel {
     padding-left: 5%;
-    padding-top: 300px;
+    padding-top: 100px;
     width: 100%;
-    height: 600px;
-    background: url(../images/forest.jpg);
+    height: 400px;
+    background: url(../images/skystart.jpg);
+    /* background-color: #b6c957; */
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
