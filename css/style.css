@@ -40,6 +40,7 @@ body {
   }
   #starttext {
     font-size: large;
+    padding-top: 10px;
   }
   .carousel-inner img {
     /* -webkit-filter: grayscale(90%); */
@@ -110,7 +111,7 @@ body {
     height: 400px;
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
-  }  
+  }
   .navbar {
     font-family: Montserrat, sans-serif;
     margin-bottom: 0;
@@ -133,7 +134,9 @@ body {
       font-size: 12px;
       letter-spacing: 2px;
     }
-
+    #myCarousel {
+      padding-top: 50px;
+    }
   }
 
   .navbar-nav li a:hover {
