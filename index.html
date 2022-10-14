@@ -210,6 +210,7 @@
       <p><span class="glyphicon glyphicon-envelope"></span>Email: asapsykolog@outlook.com</p>
     </div>
     <div class="col-md-8">
+      <form method="post" name="sendmail" action="https://formspree.io/f/xpznlnrq">
       <div class="row">
         <div class="col-sm-6 form-group">
           <input class="form-control" id="name" name="name" placeholder="Namn" type="text" required>
@@ -218,13 +219,14 @@
           <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
         </div>
       </div>
-      <textarea class="form-control" id="comments" name="comments" placeholder="Meddelande" rows="5"></textarea>
+      <textarea class="form-control" id="comments" name="body" placeholder="Meddelande" rows="5"></textarea>
       <br>
       <div class="row">
         <div class="col-md-12 form-group">
           <button class="btn pull-right" type="submit">Send</button>
         </div>
       </div>
+    </form>
     </div>
   </div>
   <br>
