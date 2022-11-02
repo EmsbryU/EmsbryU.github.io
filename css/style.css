@@ -16,6 +16,13 @@ body {
     .container-s {
         padding: 20px 60px;
     }
+    .jumptarget {
+      border-top: 30px solid transparent;
+    margin-top: -30px;
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding;
+    background-clip: padding-box;
+    }
     }
   .no-margin {
     margin: 0px;
