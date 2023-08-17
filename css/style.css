@@ -37,6 +37,9 @@ body {
   /* .person:hover {
     border-color: #f1f1f1;
   } */
+  .margin {
+    font-size: large;
+  }
   #myCarousel {
     padding-top: 100px;
     width: 100%;
